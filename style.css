@@ -106,7 +106,8 @@ a {
 }
 
 .shark-image {
-  border: 2px solid #3882f6;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
 }
 
 .image-text {
@@ -145,8 +146,63 @@ a {
 
 .quote-credit {
   /* border: 2px solid firebrick; */
-  margin-right: 20px;
+  /* margin-right: 20px; */
+  padding-right: 40px;
   align-self: flex-end;
   font-size: 20px;
   font-weight: bold;
+}
+
+.fourth-container {
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourth-internal-container {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  gap: 150px;
+  padding: 55px 120px;
+  background-color: #3882f6;
+  color: white;
+}
+
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.cta-header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cta-signup {
+  border: 2px solid white;
+  border-radius: 7px;
+  padding: 7px 25px;
+  /* font-weight: bold; */
+}
+
+/* Below we apply an effect whenever we hover the pointer over the Signup button. */
+
+.cta-signup:hover {
+  background-color: white;
+  color: rgb(8, 8, 8);
+}
+
+/* Below this is the footer */
+
+.footer-container {
+  height: 13vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  background-color: #1f2937;
+  color: #f9faf8;
 }
