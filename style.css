@@ -18,6 +18,7 @@ body {
 .header-container {
   display: flex;
   justify-content: space-evenly;
+  gap: 30px;
   /* border: 2px solid firebrick; */
   margin: 30px 30px 0;
   /* margin: auto; */
